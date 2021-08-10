@@ -1,0 +1,24 @@
+{
+  "name": "login-with-wallet-build",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@devprotocol/dev-kit": "4.5.0",
+    "@ethersproject/bignumber": "5.4.1",
+    "parcel-bundler": "^1.6.1",
+    "web3": "1.5.1",
+    "web3-core": "1.5.1"
+  },
+  "devDependencies": {
+    "typescript": "4.2.3"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": []
+}

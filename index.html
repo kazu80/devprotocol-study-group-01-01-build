@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Metamask Login</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="main.scss" />
+  </head>
+  <body>
+    <main>
+      <div class="frame">
+        <h2>ウォレットを利用したログイン機能の実装</h2>
+        <p>ウォレットとの接続状態を認証機能として利用します</p>
+        <div class="wrapper">
+          <div class="left">
+            <ul id="status" class="status">
+              <li class="active">ウォレットに未接続</li>
+              <li>ウォレットと接続拒否</li>
+              <li>ウォレットで未ログイン</li>
+              <li>ウォレットのネットワークが違う</li>
+              <li>ログイン完了</li>
+            </ul>
+          </div>
+          <div class="right">
+            <button id="wallet" class="btn">Wallet</button>
+          </div>
+        </div>
+        <h2>アドレスと所持DEVの表示</h2>
+        <p>ユーザーのウォレットアドレスと所持DEVを表示します</p>
+        <div class="wrapper">
+          <div class="left name">ウォレットアドレス</div>
+          <div id="address" class="right value">0x00000000</div>
+        </div>
+        <div class="wrapper">
+          <div class="left name">所持DEV</div>
+          <div id="dev" class="right value">100</div>
+        </div>
+      </div>
+    </main>
+
+    <script src="src/index.ts"></script>
+  </body>
+</html>
